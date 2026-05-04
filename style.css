@@ -284,7 +284,7 @@ nav ol li svg{
 }
 
 .ticker-item {
-      font-family: 'Bebas Neue', cursive;
+      font-family: 'Montserrat', cursive;
       font-size: 1.1rem;
       letter-spacing: 0.15em;
       padding: 0 2.5rem;
@@ -330,7 +330,7 @@ nav ol li svg{
 }
 
 .section-title {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', cursive;
     font-size: clamp(2.5rem, 5vw, 4rem);
     line-height: 1;
     letter-spacing: 0.02em;
@@ -461,7 +461,7 @@ nav ol li svg{
 }
 
 .marquee-item {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', cursive;
     font-size: 1.3rem;
     letter-spacing: 0.12em;
     color: coral;
@@ -530,7 +530,7 @@ nav ol li svg{
 }
 
 .stat-num {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', cursive;
     font-size: 2.8rem;
     color: white;
     line-height: 1;
@@ -577,7 +577,7 @@ footer {
 }
 
 .footer-brand {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', cursive;
     font-size: 3rem;
     color: white;
     letter-spacing: 0.1em;
