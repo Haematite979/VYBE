@@ -3,6 +3,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   cursor: default;
+  z-index: 1;
 }
 
 body{
@@ -71,6 +72,29 @@ nav ol li{
     top: 1px;
     display: inline-block;
     cursor: pointer;
+}
+.profile-dropdown{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 50%;
+    background-color: white;
+    padding: 0px;
+    display: none;
+    background-color: transparent;
+}
+.profile-dropdown ul li{
+    display: block;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-bottom: 5px;
+    z-index: 1;
+}
+.profile-dropdown ul li:hover{
+    background-color: coral;
+    color: white;
+    transform: scale(1.1);
+    transition: ease-in-out 0.3s;
 }
 nav ol li svg{
     cursor: pointer;
@@ -262,6 +286,7 @@ nav ol li svg{
     font-style: italic;
     font-size: 40px;
     color: rgba(0, 0, 0, 1);
+    z-index: -99;
 
 
 }
@@ -270,6 +295,7 @@ nav ol li svg{
     position: relative;
     font-weight: 900;
     top: 60px;
+    margin: 0px;
 }
 .ticker-wrap {
       background: transparent;

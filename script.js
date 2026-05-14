@@ -24,13 +24,14 @@
       observer.observe(el);
     });
 
-
+    let count = 0;
     document.querySelectorAll('.add-btn').forEach(btn => {
       btn.addEventListener('click', e => {
         e.stopPropagation();
         btn.textContent = '✓';
         btn.style.background = 'var(--accent)';
         btn.style.color = 'white';
+
         setTimeout(() => {
           btn.textContent = '+';
           btn.style.background = '';
@@ -61,3 +62,10 @@ filterButtons.forEach(button => {
     });
   });
 });
+
+const profile = document.querySelector('.profile');
+const dropdown = document.querySelector('.profile-dropdown');
+
+profile.addEventListener('click', () => {
+  dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+})
